@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Lib\Lib_inc -I..\inc -I "D:\program files\keil412\ARM\INC" -I "D:\program files\keil412\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o ".\Output\sensor_prcs.o" --omf_browse ".\Output\sensor_prcs.crf" --depend ".\Output\sensor_prcs.d" "..\src\Sensor_Prcs.c"

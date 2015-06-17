@@ -1,0 +1,37 @@
+*** Creating Trace Output File '.\Output\Micromouse.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\output\core_cm3.o"'
+### List of Objects: adding '".\output\system_stm32f10x.o"'
+### List of Objects: adding '".\output\misc.o"'
+### List of Objects: adding '".\output\stm32f10x_flash.o"'
+### List of Objects: adding '".\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\output\stm32f10x_tim.o"'
+### List of Objects: adding '".\output\stm32f10x_adc.o"'
+### List of Objects: adding '".\output\stm32f10x_dma.o"'
+### List of Objects: adding '".\output\motor_ctrl.o"'
+### List of Objects: adding '".\output\irsensor_prcs.o"'
+### List of Objects: adding '".\output\interface.o"'
+### List of Objects: adding '".\output\delay.o"'
+### List of Objects: adding '".\output\maze.o"'
+### List of Objects: adding '".\output\regtarge.o"'
+### List of Objects: adding '".\output\usart.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\startup_stm32f10x_hd.o" ".\output\core_cm3.o" ".\output\system_stm32f10x.o" ".\output\misc.o" ".\output\stm32f10x_flash.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_rcc.o" ".\output\stm32f10x_usart.o" ".\output\stm32f10x_tim.o" ".\output\stm32f10x_adc.o" ".\output\stm32f10x_dma.o" ".\output\motor_ctrl.o" ".\output\irsensor_prcs.o" ".\output\interface.o" ".\output\delay.o" ".\output\maze.o" ".\output\regtarge.o" ".\output\usart.o" 
+--strict --scatter ".\Output\Micromouse.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Micromouse.map" -o .\Output\Micromouse.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\Micromouse.axf'
+### ADS-LD Command File: '.\Output\Micromouse.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\Micromouse.lnp', Handle=0x000003A0
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\Micromouse.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
